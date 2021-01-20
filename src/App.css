@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+ display: flex;
+ flex-wrap: wrap;
+}
+.item{
+  width: 25%;
+  height: 200px;
+  color: aliceblue;
+  font-size: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
